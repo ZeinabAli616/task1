@@ -4,22 +4,22 @@
   .a{
     background-color:teal;
     height: 50 px;
-    border-right: 1 px color #aaa;
+    border-right: 1px solid #aaa;
 }
 .b{
-    height: 50 px;
-    width: 450;
+    height: 50px;
+    width: 450px;
     margin:0 auto;
 }
 .c{
     list-style-type:none;
-    width: 150 px;
+    width: 150px;
     float: left;
 }
 .c{
     text-decoration: none;
     color:blue;
-    line-height: 5o px;
+    line-height: 5opx;
     display:block;
 }
 .c:hover{
@@ -28,24 +28,26 @@
 }
 .footer{
     position:fixed;
-    width: auto;
     background-color: blue;
-    color: cornsilk;
-    text-align: center;
+    color: rgb(59, 48, 5);
+    text-align:center;
+    bottom: 0;
+    height: 50px;
+    width: 450 auto;
 }
 .d11{
-    width: 150 px;
-    float: left;
-    height: 250 px;
+    width: 150px;
+    float: right;
+    height: 250px;
     background-color: blueviolet;
-    border: 1 px solid #aaa;
-    margin: 50 px;
+    border: 1px solid #aaa;
+    margin: 50px;
     }
 .e11{
-    width: 150 px;
-    float: left;
-    height: 250 px;
+    width: 150px;
+    float: right;
+    height: 250px;
     background-color: aquamarine;  
-    border: 1 px solid #aaa;
-    margin: 50 px;
+    border: 1px solid rgb(100, 51, 51);
+    margin: 50px;
 }

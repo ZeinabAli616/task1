@@ -1,0 +1,27 @@
+*{padding: o;
+    margin: 0;
+ }
+  .a{
+    background-color:teal;
+    height: 50 px;
+}
+.b{
+    height: 50 px;
+    width: 450;
+    margin:0 auto;
+}
+.c{
+    list-style-type:none;
+    width: 150 px;
+    float: left;
+}
+.c{
+    text-decoration: none;
+    color: white;
+    line-height: 5o px;
+    display:block;
+}
+.c:hover{
+    background-color: turquoise;
+    color: wheat;
+}

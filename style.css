@@ -4,6 +4,7 @@
   .a{
     background-color:teal;
     height: 50 px;
+    border-right: 1 px color #aaa;
 }
 .b{
     height: 50 px;
@@ -17,7 +18,7 @@
 }
 .c{
     text-decoration: none;
-    color: white;
+    color:blue;
     line-height: 5o px;
     display:block;
 }

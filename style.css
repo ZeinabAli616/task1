@@ -26,3 +26,10 @@
     background-color: turquoise;
     color: wheat;
 }
+.footer{
+    position:fixed;
+    width: auto;
+    background-color: blue;
+    color: cornsilk;
+    text-align: center;
+}

@@ -33,3 +33,19 @@
     color: cornsilk;
     text-align: center;
 }
+.d11{
+    width: 150 px;
+    float: left;
+    height: 250 px;
+    background-color: blueviolet;
+    border: 1 px solid #aaa;
+    margin: 50 px;
+    }
+.e11{
+    width: 150 px;
+    float: left;
+    height: 250 px;
+    background-color: aquamarine;  
+    border: 1 px solid #aaa;
+    margin: 50 px;
+}

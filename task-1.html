@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <title>first task</title>
     <link rel="stylesheet" href="./style.css">
-    
-
 </head>
+
 <body>
     <nav class="a">
         <ul class="b">
@@ -19,36 +18,30 @@
         <p>footer</p>
     </div>
     <div class="e">
-        <div class="d1" id="d11" onclick="color"></div>
-        <div class="d1" id="d12" onclick="color"></div>
+        <div class="d1" id="d1" onclick="color()"></div>
+        <div class="d1" id="d2" onclick="color()"></div>
         
     </div> 
     <div class="e">
-        <div class="d1" id="e11" onclick="color"></div>
-        <div class="d1" id="e12" onclick="color"></div>
+        <div class="d1" id="d3" onclick="color()"></div>
+        <div class="d1" id="d4" onclick="color()"></div>
     
     </div>
-</body>
-<script type="text/javascript">
     <script type="text/javascript">
-    function color(x){
-        const aa =document.getElementById('d1');
-        aa.style.color="yellow";
+        function color(){
+            const aa = document.getElementById('d1');
+            aa.style.background="yellow";
 
-        const ab =document.getElementById('d2');
-        ab.style.color="greeen";
-        
-        const ac =document.getElementById('d3');
-        ac.style.color="red";
-        
-        const ad =document.getElementById('d4');
-        ad.style.color="pink";
-        
-    }
-    function act1(y) {
-        <input type="text" value="your notes">
-    }
-
-        
+            const ab = document.getElementById('d2');
+            ab.style.background="green";
+            
+            const ac = document.getElementById('d3');
+            ac.style.background="red";
+            
+            const ad = document.getElementById('d4');
+            ad.style.background="pink";
+        }
     </script>
+</body>
+
 </html>

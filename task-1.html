@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <title>first task</title>
     <link rel="stylesheet" href="./style.css">
-    
-
 </head>
 <body>
     <nav class="a">
@@ -19,36 +17,22 @@
         <p>footer</p>
     </div>
     <div class="e">
-        <div class="d1" id="d11" onclick="color"></div>
-        <div class="d1" id="d12" onclick="color"></div>
+        <div class="d1" id="d11" onclick="color('d11')"></div>
+        <div class="d1" id="d12" onclick="color('d12')"></div>
         
     </div> 
     <div class="e">
-        <div class="d1" id="e11" onclick="color"></div>
-        <div class="d1" id="e12" onclick="color"></div>
+        <div class="d1" id="d13" onclick="color('d13')"></div>
+        <div class="d1" id="d14" onclick="color('d14')"></div>
     
     </div>
-</body>
-<script type="text/javascript">
+
     <script type="text/javascript">
-    function color(x){
-        const aa =document.getElementById('d1');
-        aa.style.color="yellow";
-
-        const ab =document.getElementById('d2');
-        ab.style.color="greeen";
-        
-        const ac =document.getElementById('d3');
-        ac.style.color="red";
-        
-        const ad =document.getElementById('d4');
-        ad.style.color="pink";
-        
-    }
-    function act1(y) {
-        <input type="text" value="your notes">
-    }
-
-        
+      function color(x){
+        const aa = document.getElementById(x);
+        aa.style.background ="pink";
+      }
+    
     </script>
+    </body>
 </html>

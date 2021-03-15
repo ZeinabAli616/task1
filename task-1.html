@@ -10,9 +10,9 @@
 <body>
     <nav class="a">
         <ul class="b">
-            <li class="c" id="c1" onclick="act1()"><a herf="#">HOME</a></li>
-            <li class="c" id="c2" onclick="act2()"><a herf="#">YOUR COURSES</a></li>
-            <li class="c" id="c3" onclick="act3()"><a herf="#">SIGN IN</a></li>
+            <li class="c" id="c1" onclick="act1('HOME')"><a herf="#">HOME</a></li>
+            <li class="c" id="c2" onclick="act2('YOUR COURSES')"><a herf="#">YOUR COURSES</a></li>
+            <li class="c" id="c3" onclick="act3('SIGN IN')"><a herf="#">SIGN IN</a></li>
         </ul>
     </nav>
     <div class="footer">
@@ -32,10 +32,20 @@
 <script type="text/javascript">
     <script type="text/javascript">
     function color(x){
-        var a =document.getElementById('x.id');
-        a.color =yellow;
+        const aa =document.getElementById('d1');
+        aa.color =yellow;
+
+        const ab =document.getElementById('d2');
+        ab.color =greeen;
+        
+        const ac =document.getElementById('d3');
+        ac.color =red;
+        
+        const ad =document.getElementById('d4');
+        ad.color =pink;
+        
     }
-    function act1() {
+    function act1(y) {
         <input type="text" value="your notes">
     }
 
